@@ -3,7 +3,7 @@
 int main() {
     int N, sum = 0;
     scanf("%d", &N);
-    N = (N < 0) ? -N : N; // Handle negative numbers
+    N = (N < 0) ? -N : N; 
     while (N != 0) {
         sum += N % 10;
         N /= 10;
